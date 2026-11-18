@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sanchi Kapoor | Bridal Makeup Artist in Karnal</title>
+<meta name="description" content="Bridal, engagement and party makeup by Sanchi Kapoor in Karnal. 7 years of experience, 4.6 stars on Google. Studio on Kunjpura Road. Jewellery and lehenga on rent.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Jost:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#120b09;--panel:#1b110e;--gold:#c9a36b;--cream:#f3e6d6;--muted:#bba68f;--red:#8f1d28;
+--serif:"Cormorant Garamond",Georgia,serif;--sans:"Jost","Helvetica Neue",Arial,sans-serif}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth;scroll-padding-top:80px}
+body{background:var(--bg);color:var(--cream);font:400 1.05rem/1.65 var(--sans)}
+img{display:block;max-width:100%}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+.wrap{width:min(1120px,92%);margin-inline:auto}
+h1,h2,h3{font-family:var(--serif);font-weight:600;line-height:1.1}
+h2{font-size:clamp(2rem,5vw,3.1rem);margin-bottom:1.8rem}
+
+header{position:sticky;top:0;z-index:20;background:rgba(18,11,9,.95);backdrop-filter:blur(6px);border-bottom:1px solid rgba(201,163,107,.35)}
+.bar{display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:.55rem 0}
+.bar img{height:46px;width:auto}
+nav{display:flex;gap:1.5rem;align-items:center}
+nav a{text-decoration:none;font-weight:500}
+nav a:hover{color:var(--gold)}
+.btn{display:inline-block;padding:.75rem 1.5rem;border-radius:2px;font-weight:500;text-decoration:none;background:var(--gold);color:var(--bg);border:1px solid var(--gold)}
+.btn:hover{background:var(--cream);border-color:var(--cream)}
+.btn.ghost{background:transparent;color:var(--cream);border-color:var(--gold)}
+.btn.ghost:hover{background:var(--gold);color:var(--bg)}
+
+/* hero */
+.hero{display:grid;grid-template-columns:1.05fr .95fr;min-height:calc(100vh - 64px);max-height:860px}
+.hero-copy{display:flex;flex-direction:column;justify-content:center;padding:3rem max(4vw,1.5rem) 3rem max(4vw,calc((100vw - 1120px)/2))}
+.hero h1{font-size:clamp(2.7rem,6.4vw,5.2rem);margin-bottom:1.2rem}
+.hero p{max-width:30rem;color:var(--muted);font-size:1.15rem;margin-bottom:1.8rem}
+.cta{display:flex;flex-wrap:wrap;gap:.8rem}
+.hero-img{background:url(images/bride-hand.jpg) center 20%/cover;min-height:420px}
+.proof{display:flex;flex-wrap:wrap;gap:1.2rem 2.4rem;margin-top:2.4rem;padding-top:1.4rem;border-top:1px solid rgba(201,163,107,.35)}
+.proof div{font-size:.95rem;color:var(--muted)}
+.proof strong{display:block;font:600 1.9rem/1 var(--serif);color:var(--gold)}
+
+section{padding:5rem 0}
+.alt{background:var(--panel)}
+.split{display:grid;grid-template-columns:.9fr 1.1fr;gap:3.5rem;align-items:center}
+.split img{width:100%;border-radius:200px 200px 4px 4px;border:1px solid var(--gold)}
+.split p+p{margin-top:1rem}
+.lead{color:var(--muted)}
+
+/* services as a ruled list */
+.svc{border-top:1px solid rgba(201,163,107,.4)}
+.svc div{display:grid;grid-template-columns:1fr 1.6fr;gap:2rem;padding:1.6rem 0;border-bottom:1px solid rgba(201,163,107,.4)}
+.svc h3{font-size:1.7rem;color:var(--gold)}
+.svc p{color:var(--muted)}
+
+/* gallery */
+.gal{columns:3 260px;column-gap:1rem}
+.gal img{width:100%;margin-bottom:1rem;border-radius:3px;break-inside:avoid}
+
+/* rent */
+.rent{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem}
+.rent figure{position:relative;overflow:hidden;border-radius:3px;min-height:360px}
+.rent img{width:100%;height:100%;object-fit:cover;position:absolute;inset:0}
+.rent figcaption{position:absolute;inset:auto 0 0 0;padding:3rem 1.4rem 1.3rem;background:linear-gradient(transparent,rgba(18,11,9,.92))}
+.rent h3{font-size:1.7rem;color:var(--gold)}
+
+/* academy */
+.topics{list-style:none;padding:0;margin:1.4rem 0 1.8rem}
+.topics li{padding:.7rem 0 .7rem 1.2rem;border-left:2px solid var(--gold);margin-bottom:.6rem}
+.topics b{display:block;font-weight:500;color:var(--gold)}
+.topics span{color:var(--muted);font-size:.97rem}
+
+/* contact */
+.info dt{font:600 1.35rem/1.2 var(--serif);color:var(--gold);margin-top:1.3rem}
+.info dd{margin:0}
+.map{width:100%;min-height:380px;height:100%;border:0;border-radius:3px}
+.social{display:flex;flex-wrap:wrap;gap:.6rem 1.4rem;margin-top:1.6rem}
+.social a{color:var(--muted)}
+.social a:hover{color:var(--gold)}
+footer{padding:2rem 0;text-align:center;font-size:.9rem;color:var(--muted);border-top:1px solid rgba(201,163,107,.35)}
+
+.wa{position:fixed;right:1rem;bottom:1rem;z-index:30;padding:.85rem 1.3rem;border-radius:99px;background:#25d366;color:#08210f;font-weight:500;text-decoration:none;box-shadow:0 4px 14px rgba(0,0,0,.5)}
+
+@media (max-width:820px){
+  nav a:not(.btn){display:none}
+  .hero{grid-template-columns:1fr;max-height:none}
+  .hero-img{order:-1;min-height:48vh}
+  .hero-copy{padding:2.2rem 1.4rem 3rem}
+  .split,.rent{grid-template-columns:1fr}
+  .svc div{grid-template-columns:1fr;gap:.4rem}
+  section{padding:3.5rem 0}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap bar">
+    <a href="#top" aria-label="Sanchi Kapoor, home"><img src="images/logo.png" alt="Sanchi Kapoor logo" width="80" height="46"></a>
+    <nav aria-label="Main">
+      <a href="#services">Services</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#rent">Jewellery &amp; lehenga</a>
+      <a href="#academy">Academy</a>
+      <a href="#contact">Contact</a>
+      <a class="btn" href="https://wa.me/917206305050?text=Hi%20Sanchi%2C%20I%27d%20like%20to%20book%20makeup." target="_blank" rel="noopener">Book on WhatsApp</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <div class="hero">
+    <div class="hero-copy">
+      <h1>Bridal makeup in Karnal, by Sanchi Kapoor</h1>
+      <p>Seven years of bridal, engagement and party looks, made to bring out your own features. Studio on Kunjpura Road.</p>
+      <div class="cta">
+        <a class="btn" href="https://wa.me/917206305050?text=Hi%20Sanchi%2C%20I%27d%20like%20to%20book%20makeup." target="_blank" rel="noopener">Book on WhatsApp</a>
+        <a class="btn ghost" href="tel:+917206305050">Call 72063 05050</a>
+      </div>
+      <div class="proof">
+        <div><strong>4.6 ★</strong>390 Google reviews</div>
+        <div><strong>7 years</strong>in makeup</div>
+        <div><strong>35.8K</strong>on Instagram</div>
+      </div>
+    </div>
+    <div class="hero-img" role="img" aria-label="Bride in a red and gold lehenga against a carved gold wall"></div>
+  </div>
+
+  <section class="alt" id="about">
+    <div class="wrap split">
+      <img src="images/sanchi-portrait.jpg" alt="Sanchi Kapoor in a pearl top" loading="lazy" width="480" height="600">
+      <div>
+        <h2>Meet Sanchi</h2>
+        <p class="lead">Based in Karnal, Sanchi Kapoor is one of the most sought-after bridal makeup artists in the region. Soft and subtle or bold and glamorous, she adapts the look to the bride.</p>
+        <p class="lead">Her studio offers bridal and party makeup, plus a hair team for cuts, colour and chemical treatments. For brides, there is also jewellery and lehenga on rent.</p>
+        <p style="margin-top:1.6rem"><a class="btn ghost" href="https://www.instagram.com/sanchikapoor_mua" target="_blank" rel="noopener">See her work on Instagram</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section id="services">
+    <div class="wrap">
+      <h2>Services</h2>
+      <div class="svc">
+        <div><h3>Bridal signature makeup</h3><p>Signature bridal package using Marc Jacobs and Tom Ford, with complementary floral accessories.</p></div>
+        <div><h3>Engagement signature makeup</h3><p>Includes lenses, lashes, draping, glow pack, hair extension and hair accessories, with Armani and Samer Khazami.</p></div>
+        <div><h3>Party makeup</h3><p>Silicon, celebrity look, Habib look and signature look.</p></div>
+        <div><h3>Groom makeup &amp; hairstyling</h3><p>Groom makeup and hairstyling for the wedding day.</p></div>
+        <div><h3>Hair services</h3><p>Haircut and style, root touch-up, keratin, smoothing, botox, kera smooth, global colour, highlights, balayage, hair spa and treatment spa.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="alt" id="gallery">
+    <div class="wrap">
+      <h2>Gallery</h2>
+      <div class="gal">
+        <img src="images/bride-orange.jpg" alt="Bride in an orange and gold lehenga with jasmine flowers in her hair" loading="lazy">
+        <img src="images/bride-lehenga.jpg" alt="Bride in a red lehenga with kundan jewellery" loading="lazy">
+        <img src="images/bride-red-closeup.jpg" alt="Bridal close-up with a pearl headpiece and nath" loading="lazy">
+        <img src="images/bride-veil.jpg" alt="Bride holding her red dupatta over her face" loading="lazy">
+        <img src="images/bride-kalire.jpg" alt="Bride in maroon with gold kaleere and red chura" loading="lazy">
+        <img src="images/party-black.jpg" alt="Party makeup with a black outfit and diamond necklace" loading="lazy">
+        <img src="images/lehenga-seated.jpg" alt="Bride seated in a red embroidered lehenga" loading="lazy">
+      </div>
+    </div>
+  </section>
+
+  <section id="rent">
+    <div class="wrap">
+      <h2>Jewellery &amp; lehenga on rent</h2>
+      <div class="rent">
+        <figure>
+          <img src="images/jewellery.jpg" alt="Gold choker necklace with ruby and emerald stones and matching earrings" loading="lazy">
+          <figcaption><h3>Jewellery on rent</h3><p>50% discount on jewellery for Sanchi Kapoor brides.</p></figcaption>
+        </figure>
+        <figure>
+          <img src="images/lehenga-seated.jpg" alt="Bride seated in a red bridal lehenga" loading="lazy" style="object-position:center 30%">
+          <figcaption><h3>Bridal lehenga on rent</h3><p>Bridal lehengas on rent for Sanchi Kapoor brides, with 20% off.</p></figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="alt" id="academy">
+    <div class="wrap split">
+      <img src="images/bride-with-sanchi.jpg" alt="Sanchi Kapoor standing beside a bride in a red lehenga" loading="lazy" width="480" height="720" style="border-radius:4px">
+      <div>
+        <h2>Become a pro makeup artist</h2>
+        <p class="lead">Learn with Sanchi in the basic to advanced 30-day course.</p>
+        <ul class="topics">
+          <li><b>Makeup for special occasions</b><span>Bridal, party, engagement and roka looks</span></li>
+          <li><b>Different skin tones</b><span>Highlighting features and adapting techniques</span></li>
+          <li><b>Trends and creativity</b><span>Current trends and creative styles</span></li>
+          <li><b>Fixing mistakes</b><span>Common mistakes, corrections and makeup removal</span></li>
+          <li><b>Professional tips</b><span>Long-lasting makeup for photography and events</span></li>
+        </ul>
+        <div class="cta">
+          <a class="btn" href="https://drive.google.com/file/d/1BSH1BwtnSUMlYvnATqKAF-wElFiciPWA/view?usp=sharing" target="_blank" rel="noopener">View course details</a>
+          <a class="btn ghost" href="https://wa.me/917206305050?text=Hi%20Sanchi%2C%20I%27m%20interested%20in%20the%20makeup%20course." target="_blank" rel="noopener">Ask about the course</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="wrap split" style="grid-template-columns:1fr 1fr;align-items:stretch">
+      <div class="info">
+        <h2>Visit the studio</h2>
+        <dl>
+          <dt>Address</dt>
+          <dd>Shop no 6, Jernally Colony, Kunjpura Rd, opp. Bedi Hospital, adjoining Papa Choice restaurant, Dyal Singh Colony, Karnal, Haryana 132001</dd>
+          <dt>Hours</dt>
+          <dd>Monday to Sunday, 10 AM – 8:30 PM</dd>
+          <dt>Phone</dt>
+          <dd><a href="tel:+917206305050">72063 05050</a> · <a href="tel:+919817545050">98175 45050</a></dd>
+          <dt>Email</dt>
+          <dd><a href="mailto:Sanchikapoormakeupartist@gmail.com">Sanchikapoormakeupartist@gmail.com</a></dd>
+        </dl>
+        <div class="cta" style="margin-top:1.6rem">
+          <a class="btn" href="https://wa.me/917206305050?text=Hi%20Sanchi%2C%20I%27d%20like%20to%20book%20makeup." target="_blank" rel="noopener">Book on WhatsApp</a>
+          <a class="btn ghost" href="https://www.google.com/maps/search/?api=1&query=Sanchi+Kapoor+Makeup+Artist+Karnal" target="_blank" rel="noopener">Get directions</a>
+        </div>
+        <div class="social">
+          <a href="https://www.instagram.com/sanchikapoor_mua" target="_blank" rel="noopener">Instagram</a>
+          <a href="https://www.youtube.com/@sanchikapoormakeupartist" target="_blank" rel="noopener">YouTube</a>
+          <a href="https://www.snapchat.com/@sanchikapoormua" target="_blank" rel="noopener">Snapchat</a>
+        </div>
+      </div>
+      <iframe class="map" title="Map showing Sanchi Kapoor Makeup Artist in Karnal" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3465.8844700175496!2d76.98902119678957!3d29.694129000000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390e71d859684e7d%3A0x21e7087a653482bc!2sSanchi%20Kapoor%20Makeup%20Artist!5e0!3m2!1sen!2sin!4v1794991264336!5m2!1sen!2sin" allowfullscreen loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+    </div>
+  </section>
+</main>
+
+<footer><div class="wrap">© Sanchi Kapoor Makeup Artist · Karnal, Haryana</div></footer>
+
+<a class="wa" href="https://wa.me/917206305050?text=Hi%20Sanchi%2C%20I%27d%20like%20to%20book%20makeup." target="_blank" rel="noopener" aria-label="Chat on WhatsApp">WhatsApp</a>
+
+<style>@media (max-width:820px){#contact .split{grid-template-columns:1fr!important}}</style>
+</body>
+</html>
